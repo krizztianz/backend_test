@@ -2,6 +2,10 @@ package com.kristianandi.BackendTest.Core.Domain;
 
 public class ApiResponse {
 
+    public ApiResponse()
+    {
+
+    }
     public ApiResponse(int statusCode, String message)
     {
         this.statusCode = statusCode;
